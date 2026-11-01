@@ -1,0 +1,55 @@
+{
+  "Name": "Extra MarioSubMeter meters",
+  "Author": "Super Hackio",
+  "Description": "This module allows you to add more meters to MarioSubMeter",
+  "APIId": "MarioSubMeter_API",
+  "RequiredAPIs": [ "Syati_ClassExtensions_API" ],
+  "SupportedGames": [ "SB4" ],
+
+  "InstallDependencies": [ "Syati_ClassExtensions" ],
+
+  "ModuleExtensionDefinition": [
+    {
+      "Name": "MarioSubMeter",
+      "CodeGenSource": "GEN_MarioSubMeter.h",
+      "CodeGenDestination": "codebuild/ModuleData_MarioSubMeter.h",
+      "Variables": [
+        "RefName",
+        "LayoutName",
+        "Behavior",
+        "InitFunc",
+        "Include"
+      ],
+      "CodeGenData": [
+        {
+          "ReplaceTargetName": "MarioSubMeterList",
+          "ReplaceFormatData": "    {{ \"{0}\", \"{1}\", {2}, {3} }},"
+        },
+        {
+          "ReplaceTargetName": "IncludeList",
+          "ReplaceFormatData": "#include \"{4}\""
+        }
+      ]
+    }
+  ],
+  "ModuleData": [
+    {
+      "ClassExtensions": [
+        {
+          "ClassName": "MarioSubMeter",
+          "FuncOrVar": "SubMeterLayout** mExtSubMeterList;",
+          "HookAddr": "0x80471690",
+          "Include": "Game/Screen/GameSceneLayoutHolder.h",
+          "Extern": "class SubMeterLayout;"
+        },
+        {
+          "ClassName": "MarioSubMeter",
+          "FuncOrVar": "s32 mExtSubMeterListCount;",
+          "HookAddr": "0x80471690",
+          "Include": "Game/Screen/GameSceneLayoutHolder.h",
+          "Extern": "class SubMeterLayout;"
+        }
+      ]
+    }
+  ]
+}

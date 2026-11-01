@@ -1,0 +1,23 @@
+{
+  "Name": "SMG2 Signboard Balloon Stretch",
+  "Author": "Super Hackio",
+  "Description": "Adds a new Signboard message layout for use with the Shout MSBT option.",
+  "RequiredAPIs": [ "Syati_ClassExtensions_API" ],
+  "SupportedGames": [ "SB4" ],
+
+  "InstallDependencies": [ "Syati_ClassExtensions" ],
+
+  "ModuleData": [
+    {
+      "ClassExtensions": [
+        {
+          "ClassName": "TalkBalloonHolder",
+          "FuncOrVar": "TalkBalloonSignShort* mTalkBalloonSignShort;",
+          "HookAddr": "0x80378FB8",
+          "Include": "Game/NPC/TalkBalloon.h",
+          "Extern": "class TalkBalloonSignShort;"
+        }
+      ]
+    }
+  ]
+}

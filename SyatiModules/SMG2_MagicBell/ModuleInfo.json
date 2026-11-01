@@ -1,0 +1,18 @@
+{
+  "Name": "SMG2 MagicBell Port",
+  "Author": "Super Hackio",
+  "Description": "The star pointer bell from SMG1",
+  "SupportedGames": [ "SB4" ],
+
+  "ModuleData": [
+    {
+      "NameObjFactory": [
+        {
+          "Name": "MagicBell",
+          "Function": "createExtActor<MagicBell>",
+          "Include": "MagicBell.h"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "Name": "Mushroom Bounce Pads",
+  "Author": "Super Hackio (Original), Bavario (Decompiled after original was lost)",
+  "Description": "The Mushroom Bounce Pads from Super Mario 3D World. Can also be used to make your own bounce pads (which do not need to be mushrooms)",
+  "SupportedGames": [ "SB4" ],
+
+  "ModuleData": [
+    {
+      "ProductMapObj": [
+        {
+          "Name": "KinokoTrampoline",
+          "Function": "createExtActor<KinokoTrampoline>",
+          "Include": "KinokoTrampoline.h"
+        }
+      ]
+    }
+  ]
+}

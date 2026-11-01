@@ -1,0 +1,21 @@
+{
+  "Name": "Sling Pods in SMG2",
+  "Author": "Super Hackio",
+  "Description": "Brings Sling Pods from SMG1 into SMG2. Still supports slinging toads.",
+  "SupportedGames": [ "SB4" ],
+  "OptionalAPIs": [
+    "StarPointerCommandStream_API"
+  ],
+
+  "ModuleData" : [
+    {
+      "NameObjFactory": [
+        {
+          "Name": "SpaceCocoon",
+          "Function": "createExtActor<SpaceCocoon>",
+          "Include": "SpaceCocoon.h"
+        }
+      ]
+    }
+  ]
+}
