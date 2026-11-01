@@ -1,0 +1,40 @@
+{
+  "Name": "Tarantox in SMG2",
+  "Author": "Super Hackio",
+  "Description": "Get this spider away from me please",
+  "SupportedGames": [ "SB4" ],
+  "OptionalAPIs": [
+    "StarPointerCommandStream_API"
+  ],
+
+  "ModuleData": [
+    {
+      "NameObjFactory": [
+        {
+          "Name": "TombSpider",
+          "Function": "createExtActor<TombSpider>",
+          "Include": "Game/Boss/TombSpider.h"
+        },
+        {
+          "Name": "SpiderCoin",
+          "Function": "createExtActor<SpiderCoin>",
+          "Include": "Game/MapObj/SpiderCoin.h"
+        },
+        {
+          "Name": "SpiderAttachPoint",
+          "Function": "createExtActor<SlingShooter>",
+          "Include": "Game/Ride/SlingShooter.h"
+        }
+      ]
+    },
+    {
+      "ProductMapObj": [
+        {
+          "Name": "SpiderMapBlock",
+          "Function": "createExtActor<SpiderMapBlock>",
+          "Include": "Game/MapObj/SpiderMapBlock.h"
+        }
+      ]
+    }
+  ]
+}
