@@ -1,0 +1,25 @@
+[
+    {
+        "GroupName": "TombSpider",
+        "UniqueName": "AcidSplash",
+        "EffectName": [
+            "TombSpiderAcidSplash"
+        ],
+        "OffsetX": 0.0,
+        "OffsetY": 10.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 0.7,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R",
+            "S"
+        ]
+    }
+]
