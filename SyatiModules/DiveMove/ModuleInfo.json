@@ -1,0 +1,17 @@
+{
+    "Name": "Dive Move",
+    "Author": "Bavario, VTXG",
+    "Description": "Adds the Dive from Super Mario 64. Simply press A while mid-air to perform it.",
+    "InstallDependencies": ["Syati_CommonFunctionHooks"],
+    "ModuleData": [
+      {
+        "OnGameSceneUpdate": [
+          {
+            "Name": "CheckIfDiveAllowed",
+            "Function": "checkIfDiveAllowed",
+            "Include": "DiveMove.h"
+          }
+        ]
+      }
+    ]
+}

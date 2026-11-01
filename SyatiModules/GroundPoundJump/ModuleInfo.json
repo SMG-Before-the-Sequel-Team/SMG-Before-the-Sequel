@@ -1,0 +1,10 @@
+{
+"Name": "Ground Pound Jump", 
+"Author": "Bavario, Evanbowl", 
+"Description": "Adds the Ground Pound Jump move from Super Mario Odyssey. Simply Ground Pound and Jump after landing.",
+"SupportedGames": [
+    "SB4E",
+    "SB4P",
+    "SB4J"
+    ]
+}

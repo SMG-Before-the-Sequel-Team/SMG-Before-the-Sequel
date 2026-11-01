@@ -1,0 +1,25 @@
+{
+    "Name": "CrashHelper",
+    "Author": "Bavario",
+    "Description": "Allows you to identify the cause of a game crash with more context and information than the standard crash debugger.",
+    "InstallDependencies": ["Syati_Init", "Syati_CommonFunctionHooks"],
+    "ModuleData": [
+        {
+            "OnGameSceneStart" : [
+                {
+                  "Name" : "reportGameSceneStart",
+                  "Function" : "reportGameSceneStart",
+                  "Include": "CrashHelper.h"
+                }
+            ]
+        }, {
+            "OnAnySceneDestroy" : [
+                {
+                  "Name" : "reportGameSceneDestroy",
+                  "Function" : "reportGameSceneDestroy",
+                  "Include": "CrashHelper.h"
+                }
+            ]
+        }
+    ]
+}

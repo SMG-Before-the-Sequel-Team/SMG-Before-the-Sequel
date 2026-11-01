@@ -1,0 +1,10 @@
+{
+  "Name": "FileSelect Music 2",
+  "Author": "Bavario",
+  "Description": "A module that plays SMG2_title_strm.ast after pressing A + B on FileSelect, similar to SMG1.",
+  "SupportedGames": [
+    "SB4E",
+    "SB4P",
+    "SB4J"
+  ]
+}
