@@ -1,0 +1,127 @@
+{
+  "Name": "Megaleg in SMG2",
+  "Author": "Super Hackio",
+  "Description": "It's finally here...",
+  "SupportedGames": [ "SB4" ],
+
+  "ModuleData": [
+    {
+      "NameObjFactory": [
+        {
+          "Name": "TripodBoss",
+          "Function": "createExtActor<TripodBoss>",
+          "Include": "Game/Boss/TripodBoss.h"
+        },
+        {
+          "Name": "TripodBossBaseJointPosition",
+          "Function": "createExtActor<TripodBossBaseJointPosition>",
+          "Include": "Game/Boss/TripodBossBaseJointPosition.h"
+        },
+        {
+          "Name": "TripodBossStepPoint",
+          "Function": "createExtActor<TripodBossStepPoint>",
+          "Include": "Game/Boss/TripodBossStepPoint.h"
+        },
+        {
+          "Name": "TripodBossCore",
+          "Function": "createExtActor<TripodBossCore>",
+          "Include": "Game/Boss/TripodBossCore.h"
+        },
+        {
+          "Name": "TripodBossGuardWall",
+          "Function": "createExtActor<TripodBossGuardWall>",
+          "Include": "Game/Boss/TripodBossGuardWall.h"
+        },
+        {
+          "Name": "TripodBossShell",
+          "Function": "createExtActor<TripodBossShell>",
+          "Include": "Game/Boss/TripodBossShell.h"
+        },
+        {
+          "Name": "TripodBossKillerGenerater",
+          "Function": "createExtActor<TripodBossKillerGenerater>",
+          "Include": "Game/Boss/TripodBossKillerGenerater.h"
+        },
+        {
+          "Name": "TripodBossBottomKillerCannon",
+          "Function": "createExtActor<TripodBossKillerGeneraterCircle>",
+          "Include": "Game/Boss/TripodBossKillerGeneraterCircle.h"
+        },
+        {
+          "Name": "TripodBossUnderKillerCannon",
+          "Function": "createExtActor<TripodBossKillerGeneraterCircle>",
+          "Include": "Game/Boss/TripodBossKillerGeneraterCircle.h"
+        },
+        {
+          "Name": "TripodBossUpperKillerCannon",
+          "Function": "createExtActor<TripodBossKillerGeneraterCircle>",
+          "Include": "Game/Boss/TripodBossKillerGeneraterCircle.h"
+        },
+        {
+          "Name": "TripodBossCoin",
+          "Function": "createExtActor<TripodBossCoin>",
+          "Include": "Game/Boss/TripodBossCoin.h"
+        },
+        {
+          "Name": "TripodBossPurpleCoin",
+          "Function": "createExtActor<TripodBossCoin>",
+          "Include": "Game/Boss/TripodBossCoin.h"
+        },
+        {
+          "Name": "TripodBossStepStartArea",
+          "Function": "createExtActor<TripodBossStepStartArea>",
+          "Include": "Game/Boss/TripodBossStepStartArea.h"
+        }
+      ],
+      "ProductMapObj": [
+        {
+          "Name": "TripodBossFixParts",
+          "Function": "createExtActor<TripodBossFixParts>",
+          "Include": "Game/Boss/TripodBossFixParts.h"
+        },
+        {
+          "Name": "TripodBossRotateParts",
+          "Function": "createExtActor<TripodBossRotateParts>",
+          "Include": "Game/Boss/TripodBossRotateParts.h"
+        }
+      ],
+      "SceneObjHolder": [
+        {
+          "Name": "SCENE_OBJ_DELETED_71",
+          "Function": "MR::doMakeTripodBossAccesser",
+          "Include": "TripodBossAccessor_SceneObj.h"
+        }
+      ],
+      "AreaObjMgr": [
+        {
+          "Name": "TripodBossStepStart",
+          "MaxCount": "64",
+          "Function": "AreaObjContainer::createManager<AreaObjMgr>"
+        }
+      ],
+      "ExtCameraHolder": [
+        {
+          "Name": "CAM_TYPE_TRIPOD_BOSS",
+          "Explain": "三脚ボス",
+          "Function": "createExtCamera<CameraTripodBoss>",
+          "IsPublic": "true",
+          "Include": "Game/Camera/CameraTripodBoss.h"
+        },
+        {
+          "Name": "CAM_TYPE_TRIPOD_BOSS_JOINT",
+          "Explain": "三脚ボスジョイント",
+          "Function": "createExtCamera<CameraTripodBossJoint>",
+          "IsPublic": "true",
+          "Include": "Game/Camera/CameraTripodBossJoint.h"
+        },
+        {
+          "Name": "CAM_TYPE_CHARMED_TRIPOD_BOSS",
+          "Explain": "三脚ボスジョイント注視",
+          "Function": "createExtCamera<CameraCharmedTripodBoss>",
+          "IsPublic": "true",
+          "Include": "Game/Camera/CameraCharmedTripodBoss.h"
+        }
+      ]
+    }
+  ]
+}
