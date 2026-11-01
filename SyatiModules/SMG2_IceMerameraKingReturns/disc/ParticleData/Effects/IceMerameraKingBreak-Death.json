@@ -1,0 +1,34 @@
+[
+    {
+        "GroupName": "IceMerameraKingBreak",
+        "AnimName": [
+            "Break"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "Death",
+        "EffectName": [
+            "IceMerameraKingDeath00",
+            "IceMerameraKingDeath01",
+            "IceMerameraKingDeath02",
+            "IceMerameraKingDeath03",
+            "DeathSmokeBossS02",
+            "DeathSmokeBossS03",
+            "DeathSmokeBossS04",
+            "DeathSmokeBossS06"
+        ],
+        "OffsetX": 0.0,
+        "OffsetY": 280.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.5,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T"
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "Name": "MarblePlanet",
+  "Author": "Aurum (Updated to Syati Modules by Myron Dragon)",
+  "Description": "That one balls planet with a watermelon at the center in Deep Dark Galaxy. (Reed the readme for more details.)",
+  "SupportedGames": [ "SB4" ],
+  "InstallDependencies": [ "Syati_ObjectFactories", "Syati_Init", "PTUtils" ],
+  "ModuleData" : [
+    {
+      "NameObjFactory" : [
+        {
+          "Name" : "MarblePlanet",
+          "Function" : "createExtActor<pt::MarblePlanet>",
+          "Include" : "MarblePlanet.h"
+        }
+      ]
+    }
+  ]
+}

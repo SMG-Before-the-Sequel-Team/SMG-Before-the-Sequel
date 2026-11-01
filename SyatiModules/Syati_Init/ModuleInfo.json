@@ -1,0 +1,8 @@
+{
+  "Name": "Syati Initializer Module",
+  "Author": "[Primary Module]",
+  "Description": "Handles the initialization of static values, such as Nerves and Static variables",
+  "SupportedGames": [
+    "SB4"
+  ]
+}

@@ -1,0 +1,2 @@
+# SMG2_PinchBgm
+

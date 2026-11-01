@@ -1,0 +1,27 @@
+{
+  "Name": "SMG0 - RockSpeedArea",
+  "Author": "Super Hackio (Ported to updated Syati Modules by Linkmaster2031)",
+  "Description": "Ports the Area that allows manipulation of Mario's Speed while using the Rock Mushroom.",
+  "SupportedGames": [ "SB4" ],
+  "InstallDependencies": [ "Syati_Init", "Syati_ObjectFactories" ],
+  "ModuleData": [
+    {
+      "NameObjFactory": [
+        {
+          "Name": "RockSpeedArea",
+          "Function": "createExtActor<SMG0::RockSpeedArea>",
+          "Include": "SMG0/RockSpeedArea.h"
+        }
+      ]
+    },
+    {
+      "AreaObjMgr": [
+        {
+          "Name": "RockSpeedArea",
+          "MaxCount": "64",
+          "Function": "AreaObjContainer::createManager<AreaObjMgr>"
+        }
+      ]
+    }
+  ]
+}

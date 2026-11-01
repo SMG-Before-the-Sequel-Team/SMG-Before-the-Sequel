@@ -1,0 +1,3027 @@
+[
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "DamageCore",
+            "Stagger",
+            "StaggerPop",
+            "StaggerSink",
+            "BreakBody"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "Glow",
+        "EffectName": [
+            "CommonGlow"
+        ],
+        "JointName": "Tongue3",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "PrmColor": "#ff8000",
+        "EnvColor": "#ff0000",
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R",
+            "S"
+        ],
+        "Follow": [
+            "T",
+            "R",
+            "S"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "Damage"
+        ],
+        "UniqueName": "Damage",
+        "EffectName": [
+            "PoltaDamage"
+        ],
+        "JointName": "Head3",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "UniqueName": "DamageSmoke1",
+        "EffectName": [
+            "PoltaDamageSmokeA"
+        ],
+        "JointName": "Head3",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "UniqueName": "DamageSmoke2",
+        "EffectName": [
+            "PoltaDamageSmokeB"
+        ],
+        "JointName": "Head3",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "OpeningDemo"
+        ],
+        "UniqueName": "OpeningHead1Parts",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "Head1Parts",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 144,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "OpeningDemo"
+        ],
+        "UniqueName": "OpeningHead1PartsInd",
+        "EffectName": [
+            "PoltaOpeningPartsSmokeInd"
+        ],
+        "JointName": "Head1Parts",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 144,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "INDIRECT",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "OpeningDemo"
+        ],
+        "UniqueName": "OpeningHead2PartsB",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "Head2PartsB",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 159,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "OpeningDemo"
+        ],
+        "UniqueName": "OpeningHead2PartsBInd",
+        "EffectName": [
+            "PoltaOpeningPartsSmokeInd"
+        ],
+        "JointName": "Head2PartsB",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 159,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "INDIRECT",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "OpeningDemo"
+        ],
+        "UniqueName": "OpeningHead2PartsA",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "Head2PartsA",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 174,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "OpeningDemo"
+        ],
+        "UniqueName": "OpeningHead2PartsAInd",
+        "EffectName": [
+            "PoltaOpeningPartsSmokeInd"
+        ],
+        "JointName": "Head2PartsA",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 174,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "INDIRECT",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "OpeningDemo"
+        ],
+        "UniqueName": "OpeningHead3PartsA",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "Head3PartsA",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 189,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "OpeningDemo"
+        ],
+        "UniqueName": "OpeningHead3PartsAInd",
+        "EffectName": [
+            "PoltaOpeningPartsSmokeInd"
+        ],
+        "JointName": "Head3PartsA",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 189,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "INDIRECT",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "OpeningDemo"
+        ],
+        "UniqueName": "OpeningHead3PartsB",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "Head3PartsB",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 204,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "OpeningDemo"
+        ],
+        "UniqueName": "OpeningHead3PartsBInd",
+        "EffectName": [
+            "PoltaOpeningPartsSmokeInd"
+        ],
+        "JointName": "Head3PartsB",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 204,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "INDIRECT",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoHead1Parts",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "Head1Parts",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 261,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoHead1PartsInd",
+        "EffectName": [
+            "PoltaOpeningPartsSmokeInd"
+        ],
+        "JointName": "Head1Parts",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 261,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "INDIRECT",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoHead2PartsB",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "Head2PartsB",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 276,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoHead2PartsBInd",
+        "EffectName": [
+            "PoltaOpeningPartsSmokeInd"
+        ],
+        "JointName": "Head2PartsB",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 276,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "INDIRECT",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoHead2PartsAInd",
+        "EffectName": [
+            "PoltaOpeningPartsSmokeInd"
+        ],
+        "JointName": "Head2PartsA",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 291,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "INDIRECT",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoHead2PartsA",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "Head2PartsA",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 291,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoHead3PartsA",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "Head3PartsA",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 306,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoHead3PartsAInd",
+        "EffectName": [
+            "PoltaOpeningPartsSmokeInd"
+        ],
+        "JointName": "Head3PartsA",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 306,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "INDIRECT",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoHead3PartsB",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "Head3PartsB",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 321,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoHead3PartsBInd",
+        "EffectName": [
+            "PoltaOpeningPartsSmokeInd"
+        ],
+        "JointName": "Head3PartsB",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 321,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "INDIRECT",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "Stagger",
+            "StaggerPop",
+            "StaggerSink",
+            "BreakBody"
+        ],
+        "UniqueName": "StaggerSmoke",
+        "EffectName": [
+            "PoltaStaggerSmoke"
+        ],
+        "JointName": "Head4",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "DownDemo"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "Death",
+        "EffectName": [
+            "PoltaDownDemo"
+        ],
+        "JointName": "Head4",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 2.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoHead",
+        "EffectName": [
+            "PoltaStaggerSmoke"
+        ],
+        "JointName": "Head4",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "OpeningDemo"
+        ],
+        "UniqueName": "OpeningDemoShadow",
+        "EffectName": [
+            "PoltaShadow1time"
+        ],
+        "OffsetX": 0.0,
+        "OffsetY": 50.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 204,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "PowerUpDemoGlow",
+        "EffectName": [
+            "PoltaPowerUpDemoGlow"
+        ],
+        "JointName": "Tongue3",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "PrmColor": "#ff8000",
+        "EnvColor": "#ff0000",
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R",
+            "S"
+        ],
+        "Follow": [
+            "T",
+            "R",
+            "S"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoHeadSmoke",
+        "EffectName": [
+            "PoltaPowerUpDemo"
+        ],
+        "JointName": "Head4",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoShadow",
+        "EffectName": [
+            "PoltaShadow1time"
+        ],
+        "OffsetX": 0.0,
+        "OffsetY": 50.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 319,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "Stagger"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "HeadShadow",
+        "EffectName": [
+            "PoltaShadow"
+        ],
+        "OffsetX": 0.0,
+        "OffsetY": 50.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 0.65,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "DownDemo"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "DeathGlow",
+        "EffectName": [
+            "PoltaDownDemoGlow"
+        ],
+        "JointName": "Tongue3",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "AFTER_IMAGE_EFFECT",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "OpeningDemo"
+        ],
+        "UniqueName": "OpeningDemoInHeadSmoke",
+        "EffectName": [
+            "PoltaPowerUpDemo02",
+            "PoltaPowerUpDemo05"
+        ],
+        "JointName": "Head4",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "UniqueName": "Crash",
+        "EffectName": [
+            "RockBreak"
+        ],
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 0.6,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "UniqueName": "PoltaInsideArmL1",
+        "EffectName": [
+            "PoltaSmoke00"
+        ],
+        "OffsetX": 130.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "UniqueName": "PoltaInsideArmL2",
+        "EffectName": [
+            "PoltaSmoke00"
+        ],
+        "OffsetX": 130.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "UniqueName": "PoltaInsideHandL",
+        "EffectName": [
+            "PoltaSmoke01"
+        ],
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "UniqueName": "PoltaInsideArmR1",
+        "EffectName": [
+            "PoltaSmoke00"
+        ],
+        "OffsetX": 130.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "UniqueName": "PoltaInsideArmR2",
+        "EffectName": [
+            "PoltaSmoke00"
+        ],
+        "OffsetX": 130.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "UniqueName": "PoltaInsideHandR",
+        "EffectName": [
+            "PoltaSmoke01"
+        ],
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "UniqueName": "PoltaInsideHead",
+        "EffectName": [
+            "PoltaSmoke01"
+        ],
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "Polta",
+        "AnimName": [
+            "Wait",
+            "StaggerSink",
+            "StaggerPop",
+            "Sink",
+            "Scream",
+            "RepairAll",
+            "Repair",
+            "PunchRightToWait",
+            "PunchRightStart",
+            "PunchRight",
+            "PunchLeftToWait",
+            "PunchLeftStart",
+            "PunchLeft",
+            "PopSign",
+            "Pop",
+            "GenerateRockToWait",
+            "GenerateRockStart",
+            "GenerateRock",
+            "GenerateGroundRockStart",
+            "GenerateGroundRockSign",
+            "GenerateGroundRockEnd",
+            "GenerateGroundRock",
+            "DamageCore",
+            "DamageBody",
+            "Damage",
+            "Break",
+            "BreakBody",
+            "AttackFrontToWait",
+            "AttackFrontStart",
+            "AttackFrontEnd",
+            "AttackFront"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "Shadow",
+        "EffectName": [
+            "PoltaShadow"
+        ],
+        "OffsetX": 0.0,
+        "OffsetY": 50.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "PoltaFormationRock",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "PowerUpAppear",
+        "EffectName": [
+            "PoltaOpeningDemoAppear"
+        ],
+        "OffsetX": 0.0,
+        "OffsetY": 60.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "PoltaGroundRock",
+        "UniqueName": "Shadow",
+        "EffectName": [
+            "PoltaGroundRockAppear"
+        ],
+        "OffsetX": 0.0,
+        "OffsetY": 15.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.7,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "PoltaGroundRock",
+        "UniqueName": "Rock",
+        "EffectName": [
+            "PoltaGroundRockSmoke01"
+        ],
+        "OffsetX": 0.0,
+        "OffsetY": 50.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "PoltaGroundRockBreak",
+        "AnimName": [
+            "Break"
+        ],
+        "UniqueName": "Break",
+        "EffectName": [
+            "PoltaRockBreak00",
+            "RockBreak02",
+            "RockBreak03"
+        ],
+        "JointName": "loot",
+        "OffsetX": 0.0,
+        "OffsetY": 85.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 0.8,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "AttackFront",
+            "AttackFrontEnd",
+            "AttackFrontStart",
+            "AttackFrontToWait",
+            "Damage",
+            "GenerateGroundRock",
+            "GenerateGroundRockSign",
+            "GenerateRock",
+            "Pop",
+            "PopSign",
+            "PunchLeft",
+            "PunchLeftStart",
+            "PunchLeftToWait",
+            "PunchRight",
+            "PunchRightStart",
+            "PunchRightToWait",
+            "Repair",
+            "Scream",
+            "Sink",
+            "Stagger",
+            "Wait"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "ArmPoint",
+        "EffectName": [
+            "PoltaArmSmoke"
+        ],
+        "JointName": "PoltaLeftArmCenter",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "PunchLeft"
+        ],
+        "UniqueName": "PunchLBlur",
+        "EffectName": [
+            "PoltaPunchBlurL"
+        ],
+        "JointName": "HandLPartsB",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "AFTER_IMAGE_EFFECT",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "AttackFrontToWait"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "AttackFront",
+        "EffectName": [
+            "PoltaAttackFront00",
+            "PoltaAttackFront01",
+            "PoltaAttackFront02"
+        ],
+        "JointName": "HandL",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "AFTER_IMAGE_EFFECT",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "AttackFrontToWait"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "AttackFrontAfter2",
+        "EffectName": [
+            "PoltaAttackFront03",
+            "PoltaAttackFront04"
+        ],
+        "JointName": "HandL",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "AFTER_IMAGE_EFFECT",
+        "Affect": [
+            "T"
+        ],
+        "Follow": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoArmL1Parts",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "ArmL1Parts",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 400,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoArmL2Parts",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "ArmL2Parts",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 412,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoHandLPartsB",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "HandLPartsB",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 423,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoFingerLPartsF",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerLPartsF",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 434,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoFingerLPartsH",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerLPartsH",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 445,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoHandLPartsA",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "HandLPartsA",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 456,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoFingerLPartsB",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerLPartsB",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 464,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoFingerLPartsG",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerLPartsG",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 471,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoFingerLPartsD",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerLPartsD",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 479,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoFingerLPartsE",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerLPartsE",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 479,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoFingerLPartsA",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerLPartsA",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 487,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoFingerLPartsC",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerLPartsC",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 495,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairArmL1Parts",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "ArmL1Parts",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 66,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairArmL2Parts",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "ArmL2Parts",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 78,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairHandLPartsB",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "HandLPartsB",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 89,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairFingerLPartsF",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerLPartsF",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 100,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairFingerLPartsH",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerLPartsH",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 111,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairHandLPartsA",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "HandLPartsA",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 122,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairFingerLPartsB",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerLPartsB",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 130,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairFingerLPartsG",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerLPartsG",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 137,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairFingerLPartsD",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerLPartsD",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 145,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairFingerLPartsE",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerLPartsE",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 145,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairFingerLPartsA",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerLPartsA",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 153,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairFingerLPartsC",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerLPartsC",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 161,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "AnimName": [
+            "AttackFrontToWait"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "AttackFrontAfter1",
+        "EffectName": [
+            "PoltaAttackFrontAfter02"
+        ],
+        "JointName": "PoltaLeftArmAllRoot",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 59,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "AFTER_IMAGE_EFFECT",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaLeftArm",
+        "UniqueName": "Shadow",
+        "EffectName": [
+            "PoltaShadowHand"
+        ],
+        "OffsetX": 0.0,
+        "OffsetY": 50.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "AttackFront",
+            "AttackFrontEnd",
+            "AttackFrontStart",
+            "AttackFrontToWait",
+            "Damage",
+            "GenerateGroundRock",
+            "GenerateGroundRockSign",
+            "GenerateRock",
+            "Pop",
+            "PopSign",
+            "PunchLeft",
+            "PunchLeftStart",
+            "PunchLeftToWait",
+            "PunchRight",
+            "PunchRightStart",
+            "PunchRightToWait",
+            "Repair",
+            "Scream",
+            "Sink",
+            "Stagger",
+            "Wait"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "ArmPoint",
+        "EffectName": [
+            "PoltaArmSmoke"
+        ],
+        "JointName": "PoltaRightArmCenter",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "PunchRight"
+        ],
+        "UniqueName": "PunchRBlur",
+        "EffectName": [
+            "PoltaPunchBlurR"
+        ],
+        "JointName": "HandRPartsB",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "AFTER_IMAGE_EFFECT",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "AttackFrontToWait"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "AttackFront",
+        "EffectName": [
+            "PoltaAttackFront05",
+            "PoltaAttackFront06",
+            "PoltaAttackFront07"
+        ],
+        "JointName": "HandR",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "AFTER_IMAGE_EFFECT",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "AttackFrontToWait"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "AttackFrontAfter2",
+        "EffectName": [
+            "PoltaAttackFront03",
+            "PoltaAttackFront04"
+        ],
+        "JointName": "HandR",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "AFTER_IMAGE_EFFECT",
+        "Affect": [
+            "T"
+        ],
+        "Follow": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoArmR1Parts",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "ArmR1Parts",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 405,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoArmR2Parts",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "ArmR2Parts",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 417,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoHandRPartsB",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "HandRPartsB",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 428,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoFingerRPartsH",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerRPartsH",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 439,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoFingerRPartsF",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerRPartsF",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 450,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoHandRPartsA",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "HandRPartsA",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 461,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoFingerRPartsD",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerRPartsD",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 473,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoFingerRPartsB",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerRPartsB",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 480,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoFingerRPartsG",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerRPartsG",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 487,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoFingerRPartsC",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerRPartsC",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 489,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoFingerRPartsA",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerRPartsA",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 492,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "PowerUpDemo"
+        ],
+        "UniqueName": "PowerUpDemoFingerRPartsE",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerRPartsE",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 497,
+        "ScaleValue": 1.25,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairArmR1Parts",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "ArmR1Parts",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 66,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairArmR2Parts",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "ArmR2Parts",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 78,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairHandRPartsB",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "HandRPartsB",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 89,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairFingerRPartsF",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerRPartsF",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 100,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairFingerRPartsH",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerRPartsH",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 111,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairHandRPartsA",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "HandRPartsA",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 122,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairFingerRPartsB",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerRPartsB",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 130,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairFingerRPartsG",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerRPartsG",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 137,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairFingerRPartsD",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerRPartsD",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 145,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairFingerRPartsE",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerRPartsE",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 145,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairFingerRPartsA",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerRPartsA",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 153,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "Repair"
+        ],
+        "UniqueName": "RepairFingerRPartsC",
+        "EffectName": [
+            "PoltaOpeningPartsSmoke"
+        ],
+        "JointName": "FingerRPartsC",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 161,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "AnimName": [
+            "AttackFrontToWait"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "AttackFrontAfter1",
+        "EffectName": [
+            "PoltaAttackFrontAfter05"
+        ],
+        "JointName": "PoltaRightArmAllRoot",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 59,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "AFTER_IMAGE_EFFECT",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    },
+    {
+        "GroupName": "PoltaRightArm",
+        "UniqueName": "Shadow",
+        "EffectName": [
+            "PoltaShadowHand"
+        ],
+        "OffsetX": 0.0,
+        "OffsetY": 50.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "PoltaRock",
+        "UniqueName": "BreakWhite",
+        "EffectName": [
+            "PoltaRockBreak00",
+            "RockBreak01",
+            "RockBreak02",
+            "RockBreak03"
+        ],
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 0.5,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "PoltaRock",
+        "AnimName": [
+            "Froat",
+            "Sign"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "FallingRockWhite",
+        "EffectName": [
+            "PoltaRockFallingRock"
+        ],
+        "JointName": "PoltaRock",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T"
+        ],
+        "Follow": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "PoltaRock",
+        "UniqueName": "Appear",
+        "EffectName": [
+            "PoltaGroundRockAppear"
+        ],
+        "OffsetX": 0.0,
+        "OffsetY": -20.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 0.7,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "PoltaRock",
+        "AnimName": [
+            "Froat",
+            "Sign"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "FallingRockYellow",
+        "EffectName": [
+            "PoltaRockFallingRock"
+        ],
+        "JointName": "PoltaRock",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T"
+        ],
+        "Follow": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "PoltaRock",
+        "UniqueName": "BreakYellow",
+        "EffectName": [
+            "PoltaRockBreak01",
+            "RockBreak01",
+            "RockBreak02",
+            "RockBreak03"
+        ],
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 0.5,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T"
+        ]
+    },
+    {
+        "GroupName": "PoltaRock",
+        "UniqueName": "Explosion",
+        "EffectName": [
+            "BossStinkBugExplosion00",
+            "Explosion00",
+            "Explosion01",
+            "Explosion02",
+            "Explosion03",
+            "Explosion04",
+            "Explosion05",
+            "BossStinkBugExplosion01",
+            "BossStinkBugExplosion02"
+        ],
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "EndFrame": 0,
+        "ScaleValue": 2.5,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T"
+        ]
+    }
+]

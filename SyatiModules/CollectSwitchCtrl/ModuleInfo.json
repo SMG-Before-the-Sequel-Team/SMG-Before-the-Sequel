@@ -1,0 +1,22 @@
+{
+  "Name": "CollectSwitchCtrl",
+  "Author": "Aurum and Evanbowl",
+  "Description": "PT: CollectSwitchCtrl",
+  "InstallDependencies": ["Syati_ObjectFactories"],
+  "SupportedGames": [
+    "SB4E",
+    "SB4P",
+    "SB4J"
+  ],
+  "ModuleData" : [
+    {
+      "NameObjFactory" : [
+        {
+          "Name" : "CollectSwitchCtrl",
+          "Function" : "createExtActor<pt::CollectSwitchCtrl>",
+          "Include" : "CollectSwitchCtrl.h"
+        }
+      ]
+    }
+  ]
+}

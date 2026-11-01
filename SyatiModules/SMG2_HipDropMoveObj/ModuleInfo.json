@@ -1,0 +1,26 @@
+{
+  "Name": "HipDropMoveObj in SMG2",
+  "Author": "Super Hackio",
+  "Description": "Also includes HipDropDemoMoveObj",
+  "SupportedGames": [
+    "SB4E",
+    "SB4P",
+    "SB4J"
+  ],
+  "ModuleData": [
+    {
+      "ProductMapObj": [
+        {
+          "Name": "HipDropMoveObj",
+          "Function": "createExtActor<HipDropMoveObj>",
+          "Include": "HipDropMoveObj.h"
+        },
+        {
+          "Name": "HipDropDemoMoveObj",
+          "Function": "createExtActor<HipDropDemoMoveObj>",
+          "Include": "HipDropMoveObj.h"
+        }
+      ]
+    }
+  ]
+}

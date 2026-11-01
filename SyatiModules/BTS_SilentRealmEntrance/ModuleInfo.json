@@ -1,0 +1,22 @@
+{
+  "Name": "Before The Sequel - Silent Realm Entrance",
+  "Author": "Linkmaster2031 and GaimerI17",
+  "Description": "Adds the Entrance into Silent Realms from Skyward Sword into SMG2!",
+  "SupportedGames": [ "SB4" ],
+  "InstallDependencies": [ "Syati_Init", "Syati_ObjectFactories" ],
+  "RequiredAPIs": [
+    "GalaxyLevelEngine_API"
+  ],
+
+  "ModuleData" : [
+    {
+      "NameObjFactory" : [
+        {
+          "Name" : "SilentRealmEntrance",
+          "Function" : "createExtActor<SilentRealmEntrance>",
+          "Include" : "SilentRealmEntrance.h"
+        }
+      ]
+    }
+  ]
+}

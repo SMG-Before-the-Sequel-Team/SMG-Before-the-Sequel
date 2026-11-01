@@ -1,0 +1,19 @@
+{
+  "Name": "FirePressureRadiate",
+  "Author": "Aurum",
+  "Description": "Adds the \"FirePressureRadiate\" actor from SMG1.",
+  "SupportedGames": [
+    "SB4"
+  ],
+  "ModuleData" : [
+    {
+      "NameObjFactory" : [
+        {
+          "Name" : "FirePressureRadiate",
+          "Function" : "createExtActor<pt::FirePressureRadiate>",
+          "Include" : "FirePressureRadiate.h"
+        }
+      ]
+    }
+  ]
+}

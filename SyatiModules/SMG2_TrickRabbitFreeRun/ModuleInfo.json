@@ -1,0 +1,17 @@
+{
+  "Name": "TrickRabbitFreeRun in SMG2",
+  "Author": "gaimerI17",
+  "Description": "Gold Leaf rabbit in SMG2.",
+  "InstallDependencies": ["Syati_ObjectFactories", "Syati_Init"],
+  "ModuleData" : [
+    {
+      "NameObjFactory" : [
+        {
+          "Name" : "TrickRabbitFreeRun",
+          "Function" : "createExtActor<TrickRabbitFreeRun>",
+          "Include" : "TrickRabbitFreeRun.h"
+        }
+      ]
+    }
+  ]
+}

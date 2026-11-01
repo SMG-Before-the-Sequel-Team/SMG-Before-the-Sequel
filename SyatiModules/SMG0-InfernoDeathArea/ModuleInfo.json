@@ -1,0 +1,18 @@
+{
+  "Name": "SMG0 InfernoDeathArea",
+  "Author": "Super Hackio (Converted into a Syati Module by Linkmaster2031)",
+  "Description": "A new area that kills both InfernoMario and InstantInferno enemies",
+  "SupportedGames": [ "SB4" ],
+  "InstallDependencies": [ "Syati_ObjectFactories", "Syati_Init"],
+  "ModuleData" : [
+    {
+      "NameObjFactory" : [
+        {
+          "Name" : "InfernoDeathArea",
+          "Function" : "createExtActor<SMG0::InfernoDeathArea>",
+          "Include" : "SMG0/InfernoDeathArea.h"
+        }
+      ]
+    }
+  ]
+}

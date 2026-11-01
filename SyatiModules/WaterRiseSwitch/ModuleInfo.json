@@ -1,0 +1,36 @@
+{
+  "Name": "WaterRiseSwitch",
+  "Author": "Bavario",
+  "Description": "PTD: A Switch that raises the water level to its position.",
+  "InstallDependencies": ["Syati_ObjectFactories"],
+  "SupportedGames": [
+    "SB4E",
+    "SB4P",
+    "SB4J"
+  ],
+  "BuildTasks": [{
+    "Task": "Copy",
+    "From": "disc/",
+    "To": "../../Output/disc/"
+  }],
+  "ModuleData" : [
+    {
+      "NameObjFactory" : [
+        {
+          "Name" : "WaterRiseSwitch",
+          "Function" : "createExtActor<pt::WaterRiseSwitch>",
+          "Include" : "WaterRiseSwitch.h"
+        }
+      ]
+    },
+    {
+      "SceneObjHolder" : [
+        {
+          "Name" : "0x47",
+          "Function" : "pt::createWaterRiseHolder",
+          "Include" : "WaterRiseSwitch.h"
+        }
+      ]
+    }
+  ]
+}

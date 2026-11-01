@@ -1,0 +1,26 @@
+{
+  "Name": "Return of Baron Brrr",
+  "Author": "Super Hackio",
+  "Description": "He will give you the cold shoulder",
+  "RequiredAPIs": [ "ThrowableProjectile_API", "CameraTargetDemoActor_API", "PinchBGM_API" ],
+  "SupportedGames": [ "SB4" ],
+
+  "ModuleData": [
+    {
+      "ProductMapObj": [
+        {
+          "Name": "MegaMeramera",
+          "Function": "createExtActor<IceMerameraKing>",
+          "Include": "Game/Enemy/IceMerameraKing.h"
+        }
+      ],
+      "PostCreateFunc": [
+        {
+          "Name": "IceMerameraKing",
+          "Function": "MR::initMarioResourceIce",
+          "Include": "Game/Enemy/IceMerameraKing.h"
+        }
+      ]
+    }
+  ]
+}

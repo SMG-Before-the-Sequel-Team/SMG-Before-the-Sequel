@@ -1,0 +1,34 @@
+[
+    {
+        "GroupName": "MerameraQueenBreak",
+        "AnimName": [
+            "Break"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "Death",
+        "EffectName": [
+            "MerameraQueenDeath00",
+            "MerameraQueenDeath01",
+            "MerameraQueenDeath02",
+            "MerameraQueenDeath03",
+            "DeathSmokeBossS02",
+            "DeathSmokeBossS03",
+            "DeathSmokeBossS04",
+            "DeathSmokeBossS06"
+        ],
+        "OffsetX": 0.0,
+        "OffsetY": 280.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.5,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T"
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+{
+  "Name": "Neo Mario Galaxy Coin and Starbit mushroom items",
+  "Author": "Aurum",
+  "Description": "Adds a new golden coin mushroom and a purple starbit mushroom to the game as collectables (as seen in Neo Mario Galaxy)",
+  "SupportedGames": [ "SB4" ],
+
+  "ModuleData": [
+    {
+      "NameObjFactory": [
+        {
+          "Name": "KinokoTreasure",
+          "Function": "createExtActor<neo::KinokoCollect>",
+          "Include": "KinokoCollect.h"
+        },
+        {
+          "Name": "KinokoStarPiece",
+          "Function": "createExtActor<neo::KinokoCollect>",
+          "Include": "KinokoCollect.h"
+        }
+      ]
+    }
+  ]
+}

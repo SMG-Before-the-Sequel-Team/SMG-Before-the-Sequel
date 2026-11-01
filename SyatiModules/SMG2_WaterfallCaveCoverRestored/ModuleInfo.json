@@ -1,0 +1,20 @@
+{
+  "Name": "WaterfallCaveCover in SMG2",
+  "Author": "Linkmaster2031, gaimerI17 (Decompiled by ThePlayerRolo and ThatNintendoNerd)",
+  "Description": "The Beach Bowl Destroyable Rock in Star 3, now in SMG2!",
+  "InstallDependencies": ["Syati_ObjectFactories", "Syati_Init"],
+  "SupportedGames": [
+    "SB4"
+  ],
+"ModuleData" : [
+    {
+      "ProductMapObj" : [
+        {
+          "Name" : "WaterfallCaveCover",
+          "Function" : "createExtActor<WaterfallCaveCover>",
+          "Include" : "WaterfallCaveCover.h"
+        }
+      ]
+    }
+  ]
+}

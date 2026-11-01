@@ -1,0 +1,35 @@
+{
+  "Name": "Syati Extended Star Pointer",
+  "Author": "[Primary Module]",
+  "Description": "A module that allows the creation of new Star Pointer modes.",
+  "APIId": "Syati_ExtStarPointer_API",
+  "SupportedGames": [ "SB4" ],
+
+  "ModuleExtensionDefinition": [
+    {
+      "Name": "StarPointerMode",
+      "CodeGenSource": "GEN_ExtStarPointer.h",
+      "CodeGenDestination": "codebuildexport/ModuleData_ExtStarPointer.h",
+      "Variables": [
+        "Name",
+        "SetupFunc",
+        "Comment",
+        "Include"
+      ],
+      "CodeGenData": [
+        {
+          "ReplaceTargetName": "EnumList",
+          "ReplaceFormatData": "    ExtStarPointerMode_{0}, // {2}"
+        },
+        {
+          "ReplaceTargetName": "SetupFuncList",
+          "ReplaceFormatData": "    {1}, // {0}"
+        },
+        {
+          "ReplaceTargetName": "IncludeList",
+          "ReplaceFormatData": "#include \"{3}\""
+        }
+      ]
+    }
+  ]
+}

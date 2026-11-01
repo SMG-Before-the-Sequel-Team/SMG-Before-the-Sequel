@@ -1,0 +1,40 @@
+{
+  "Name": "SkeletalFishBoss in SMG2",
+  "Author": "Super Hackio",
+  "Description": "Kingfin makes his grand return...",
+  "SupportedGames": [ "SB4" ],
+
+  "ModuleData": [
+    {
+      "NameObjFactory": [
+        {
+          "Name": "SkeletalFishBoss",
+          "Function": "createExtActor<SkeletalFishBoss>",
+          "Include": "Game/Boss/SkeletalFishBoss.h"
+        },
+        {
+          "Name": "SkeletalFishBossRail",
+          "Function": "createExtActor<SkeletalFishBossRail>",
+          "Include": "Game/Boss/SkeletalFishBossRail.h"
+        },
+        {
+          "Name": "SubmarineVolcanoBigColumn",
+          "Function": "createExtActor<SubmarineVolcanoBigColumn>",
+          "Include": "Game/MapObj/SubmarineVolcanoBigColumn.h"
+        },
+        {
+          "Name": "SubmarineVolcanoSmallColumn",
+          "Function": "createExtActor<SubmarineVolcanoBigColumn>",
+          "Include": "Game/MapObj/SubmarineVolcanoBigColumn.h"
+        }
+      ],
+      "SceneObjHolder": [
+        {
+          "Name": "SCENE_OBJ_SKELETAL_FISH_RAIL_HOLDER",
+          "Function": "MR::doMakeSkeletalFishBossRailHolder",
+          "Include": "Game/SkeletalFish_SceneObj.h"
+        }
+      ]
+    }
+  ]
+}

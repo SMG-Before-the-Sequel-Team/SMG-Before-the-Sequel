@@ -1,0 +1,58 @@
+{
+  "Name": "SMG2 Bouldergiest-EX",
+  "Author": "Super Hackio",
+  "Description": "A more extreme bouldergiest battle!",
+  "RequiredAPIs": [ "Syati_ClassExtensions_API" ],
+  "SupportedGames": [ "SB4" ],
+
+  "InstallDependencies": [ "Syati_ClassExtensions" ],
+
+  "ModuleData": [
+    {
+      "ClassExtensions": [
+        {
+          "ClassName": "PoltaBattleLv1",
+          "FuncOrVar": "PoltaStateHideBombTeresa* mStateHideBombTeresa;",
+          "HookAddr": "0x800F3978",
+          "Include": "Game/Boss/PoltaBattleLv1.h",
+          "Extern": "class PoltaStateHideBombTeresa;"
+        },
+        {
+          "ClassName": "PoltaBattleLv1",
+          "FuncOrVar": "PoltaStateHideGroundRock* mStateHideGroundRock;",
+          "HookAddr": "0x800F3978",
+          "Include": "Game/Boss/PoltaBattleLv1.h",
+          "Extern": "class PoltaStateHideGroundRock;"
+        },
+        {
+          "ClassName": "PoltaBattleLv1",
+          "FuncOrVar": "PoltaStateHideChase* mStateHideChase;",
+          "HookAddr": "0x800F3978",
+          "Include": "Game/Boss/PoltaBattleLv1.h",
+          "Extern": "class PoltaStateHideChase;"
+        },
+        {
+          "ClassName": "PoltaBattleLv2",
+          "FuncOrVar": "PoltaStateHideBombTeresa* mStateHideBombTeresa;",
+          "HookAddr": "0x800F3994",
+          "Include": "Game/Boss/PoltaBattleLv2.h",
+          "Extern": "class PoltaStateHideBombTeresa;"
+        },
+        {
+          "ClassName": "PoltaBattleLv2",
+          "FuncOrVar": "PoltaStateHideGroundRock* mStateHideGroundRock;",
+          "HookAddr": "0x800F3994",
+          "Include": "Game/Boss/PoltaBattleLv2.h",
+          "Extern": "class PoltaStateHideGroundRock;"
+        },
+        {
+          "ClassName": "PoltaBattleLv2",
+          "FuncOrVar": "PoltaStateHideChase* mStateHideChase;",
+          "HookAddr": "0x800F3994",
+          "Include": "Game/Boss/PoltaBattleLv2.h",
+          "Extern": "class PoltaStateHideChase;"
+        }
+      ]
+    }
+  ]
+}

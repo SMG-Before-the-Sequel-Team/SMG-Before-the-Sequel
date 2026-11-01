@@ -1,0 +1,49 @@
+{
+  "Name": "Custom Launch Star Colors",
+  "Author": "Aurum (V1), Evanbowl & Lord-Giganticus (V2), Super Hackio (V3)",
+  "Description": "Custom Launch Star Colors via ShapeModelNo",
+  "InstallDependencies": [ "Syati_ClassExtensions", "Syati_ObjectFactories", "Syati_Init" ],
+  "SupportedGames": [
+    "SB4E",
+    "SB4P",
+    "SB4J"
+  ],
+  "RequiredAPIs": [
+    "Syati_ClassExtensions_API"
+  ],
+  "ModuleData": [
+    {
+      "ClassExtensions": [
+        {
+          "ClassName": "SpinDriverPathDrawInit",
+          "FuncOrVar": "JUTTexture** mTextures;",
+          "HookAddr": "0x8045A29C",
+          "Include": "Game/MapObj/SpinDriverPathDrawer.h",
+          "Extern": "class JUTTexture;"
+        },
+        {
+          "ClassName": "SpinDriverPathDrawInit",
+          "FuncOrVar": "s32 mTextureCount;",
+          "HookAddr": "0x8045A29C",
+          "Include": "Game/MapObj/SpinDriverPathDrawer.h",
+          "Extern": ""
+        }
+      ],
+      "NameObjFactory": [
+        {
+          "Name": "SuperSpinDriverGreen",
+          "Function": "MR::createSuperSpinDriverGreen",
+          "Include": "SuperSpinDriverGreen.h"
+        }
+      ],
+      "ModelChangableObj": [
+        {
+          "Name": "SuperSpinDriver",
+          "ArchiveName": "NULL",
+          "Function": "MR::createSuperSpinDriverYellow",
+          "Include": "Game/MapObj/SuperSpinDriver.h"
+        }
+      ]
+    }
+  ]
+}

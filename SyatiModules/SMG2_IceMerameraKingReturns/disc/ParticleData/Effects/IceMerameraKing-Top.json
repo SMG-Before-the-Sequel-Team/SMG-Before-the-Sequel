@@ -1,0 +1,36 @@
+[
+    {
+        "GroupName": "IceMerameraKing",
+        "AnimName": [
+            "PreAttack",
+            "PreRecover",
+            "Recover",
+            "Summon",
+            "Wait",
+            "Attack",
+            "AttackEnd"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "Top",
+        "EffectName": [
+            "IceMerameraKingTopIce"
+        ],
+        "JointName": "Top",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R",
+            "S"
+        ],
+        "Follow": [
+            "T",
+            "S"
+        ]
+    }
+]

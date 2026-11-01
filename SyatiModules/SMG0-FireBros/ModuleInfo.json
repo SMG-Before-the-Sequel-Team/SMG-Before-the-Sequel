@@ -1,0 +1,18 @@
+{
+  "Name": "SMG0 Fire Bros",
+  "Author": "Super Hackio (Converted into a Syati Module by Linkmaster2031)",
+  "Description": "The Fire Bros Enemy from SMG0 converted into a Module Style Format",
+  "SupportedGames": [ "SB4" ],
+  "InstallDependencies": ["Syati_ObjectFactories", "Syati_Init"],
+  "ModuleData" : [
+    {
+      "NameObjFactory": [
+        {
+          "Name" : "FireBros",
+          "Function" : "createExtActor<FireBros>",
+          "Include" : "SMG0/Enemy/FireBros.h"
+        }
+      ]
+    }
+  ]
+}

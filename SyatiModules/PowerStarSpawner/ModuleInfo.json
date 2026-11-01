@@ -1,0 +1,22 @@
+{
+  "Name": "PowerStarSpawner",
+  "Author": "Aurum and Evanbowl",
+  "Description": "PTD: Power Star Spawner",
+  "InstallDependencies": ["Syati_ObjectFactories"],
+  "SupportedGames": [
+    "SB4E",
+    "SB4P",
+    "SB4J"
+  ],
+  "ModuleData" : [
+    {
+      "NameObjFactory": [
+        {
+          "Name" : "PowerStarSpawner",
+          "Function" : "createExtActor<pt::PowerStarSpawner>",
+          "Include" : "PowerStarSpawner.h"
+        }
+      ]
+    }
+  ]
+}

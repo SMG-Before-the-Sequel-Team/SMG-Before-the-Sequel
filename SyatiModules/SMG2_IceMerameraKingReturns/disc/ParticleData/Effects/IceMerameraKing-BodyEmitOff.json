@@ -1,0 +1,28 @@
+[
+    {
+        "GroupName": "IceMerameraKing",
+        "AnimName": [
+            "GoOut"
+        ],
+        "UniqueName": "BodyEmitOff",
+        "EffectName": [
+            "IceMerameraKingBodyIceOff"
+        ],
+        "JointName": "JointRoot",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 0.75,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R",
+            "S"
+        ],
+        "Follow": [
+            "T"
+        ]
+    }
+]

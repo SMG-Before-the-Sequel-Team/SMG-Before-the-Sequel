@@ -1,0 +1,35 @@
+{
+  "Name": "Red Coin System",
+  "Author": "Evanbowl",
+  "Description": "PTD: Red Coin System",
+  "InstallDependencies": ["Syati_ObjectFactories", "Syati_Init", "CustomCoinSpawns"],
+  "SupportedGames": [
+    "SB4E",
+    "SB4P",
+    "SB4J"
+  ],
+  "CompilerFlags" : [
+    "-DREDCOINSYSTEM"
+  ],
+  "ModuleData" : [
+    {
+      "NameObjFactory": [
+        {
+          "Name" : "RedCoin",
+          "Function" : "createExtActor<RedCoin>",
+          "Include" : "RedCoin.h"
+        },
+        {
+          "Name" : "RedCoinController",
+          "Function" : "createExtActor<RedCoinController>",
+          "Include" : "RedCoinController.h"
+        },
+        {
+          "Name" : "RedCoinSwitch",
+          "Function" : "createExtActor<RedCoinSwitch>",
+          "Include" : "RedCoinSwitch.h"
+        }
+      ]
+    }
+  ]
+}

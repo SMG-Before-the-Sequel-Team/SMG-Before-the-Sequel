@@ -1,0 +1,21 @@
+{
+  "Name": "SimpleNPC",
+  "Author": "Super Hackio",
+  "Description": "A Simple way to add new NPCs to the game",
+  "SupportedGames": [ "SB4" ],
+  "OptionalAPIs": [ "GalaxyLevelEngine_API" ],
+
+  "InstallDependencies": [ "Syati_ObjectFactories" ],
+
+  "ModuleData": [
+    {
+      "ProductMapObj": [
+        {
+          "Name": "SimpleNPC",
+          "Function": "createExtActor<SimpleNPC>",
+          "Include": "SimpleNPC.h"
+        }
+      ]
+    }
+  ]
+}

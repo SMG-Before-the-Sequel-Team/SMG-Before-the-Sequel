@@ -1,0 +1,35 @@
+{
+    "Name": "Warp Box",
+    "Author": "Bavario",
+    "Description": "The Warp Box from 3D World/Land and Mario Maker 2.",
+    "SupportedGames": [
+    "SB4E",
+    "SB4P",
+    "SB4J"
+    ],    
+    "ModuleData" : [
+    {
+      "NameObjFactory" : [
+        {
+          "Name": "WarpBox",
+          "Function": "createExtActor<WarpBox>",
+          "Include": "WarpBox.h"
+        },
+        {
+          "Name": "WarpBoxExitPoint",
+          "Function": "createExtActor<WarpBoxExitPoint>",
+          "Include": "WarpBoxExitPoint.h"
+        }
+      ]
+    },
+    {
+      "SceneObjHolder" : [
+        {
+          "Name": "EXT_SCENE_OBJ_WARP_CUBE_MANAGER",
+          "Function": "WarpBoxMgr::createWarpBoxMgr",
+          "Include": "WarpBoxMgr.h"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "Name": "Syati Global Layouts",
+  "Author": "[Primary Module]",
+  "Description": "Provides functionality to have layouts that are always loaded",
+  "SupportedGames": [
+    "SB4"
+  ],
+
+  "ModuleExtensionDefinition": [
+    {
+      "Name": "GlobalLayout",
+      "CodeGenSource": "GEN_GlobalLayouts.h",
+      "CodeGenDestination": "codebuild/ModuleData_GlobalLayouts.h",
+      "Variables": [
+        "Name",
+        "DiscPath",
+        "Function",
+        "Include"
+      ],
+      "CodeGenData": [
+        {
+          "ReplaceTargetName": "GlobalLayoutList",
+          "ReplaceFormatData": "{{ \"{0}\", \"{1}\", {2} }},"
+        },
+        {
+          "ReplaceTargetName": "IncludeList",
+          "ReplaceFormatData": "#include \"{3}\""
+        }
+      ]
+    }
+  ]
+}

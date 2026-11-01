@@ -1,0 +1,180 @@
+{
+  "Name": "Galaxy Level Engine",
+  "Author": "Super Hackio",
+  "Description": "Syati Bindings for Galaxy Level Engine functions.",
+  "APIId": "GalaxyLevelEngine_API",
+  "SupportedGames": [ "SB4" ],
+  "CompilerFlags": [
+    "-DGALAXY_LEVEL_ENGINE"
+  ],
+
+  "GLEBuildTool": [
+    "Generated: Tuesday, August 11, 2026 4:34:30 PM",
+    "Symbol Count: 17",
+    "Hook Count: 8",
+    "GLE Version: V3.5.0.0"
+  ],
+  "ModuleExtensionDefinition": [
+    {
+      "Name": "GLE__onAllStarListGalaxyLoad",
+      "CodeGenSource": "GEN_GalaxyLevelEngine_Hooks.h",
+      "CodeGenDestination": "codebuild/ModuleData_GalaxyLevelEngine_Hooks.h",
+      "Variables": [
+        "Name",
+        "Function",
+        "Include"
+      ],
+      "CodeGenData": [
+        {
+          "ReplaceTargetName": "GLE__onAllStarListGalaxyLoadList",
+          "ReplaceFormatData": "{1}, //{0}"
+        },
+        {
+          "ReplaceTargetName": "IncludeListGLE__onAllStarListGalaxyLoad",
+          "ReplaceFormatData": "#include \"{2}\""
+        }
+      ]
+    },
+    {
+      "Name": "GLE__onScenarioSelectInit",
+      "CodeGenSource": "GEN_GalaxyLevelEngine_Hooks.h",
+      "CodeGenDestination": "codebuild/ModuleData_GalaxyLevelEngine_Hooks.h",
+      "Variables": [
+        "Name",
+        "Function",
+        "Include"
+      ],
+      "CodeGenData": [
+        {
+          "ReplaceTargetName": "GLE__onScenarioSelectInitList",
+          "ReplaceFormatData": "{1}, //{0}"
+        },
+        {
+          "ReplaceTargetName": "IncludeListGLE__onScenarioSelectInit",
+          "ReplaceFormatData": "#include \"{2}\""
+        }
+      ]
+    },
+    {
+      "Name": "GLE__onScenarioSelectAppear",
+      "CodeGenSource": "GEN_GalaxyLevelEngine_Hooks.h",
+      "CodeGenDestination": "codebuild/ModuleData_GalaxyLevelEngine_Hooks.h",
+      "Variables": [
+        "Name",
+        "Function",
+        "Include"
+      ],
+      "CodeGenData": [
+        {
+          "ReplaceTargetName": "GLE__onScenarioSelectAppearList",
+          "ReplaceFormatData": "{1}, //{0}"
+        },
+        {
+          "ReplaceTargetName": "IncludeListGLE__onScenarioSelectAppear",
+          "ReplaceFormatData": "#include \"{2}\""
+        }
+      ]
+    },
+    {
+      "Name": "GLE__exeAfterScenarioSelected",
+      "CodeGenSource": "GEN_GalaxyLevelEngine_Hooks.h",
+      "CodeGenDestination": "codebuild/ModuleData_GalaxyLevelEngine_Hooks.h",
+      "Variables": [
+        "Name",
+        "Function",
+        "Include"
+      ],
+      "CodeGenData": [
+        {
+          "ReplaceTargetName": "GLE__exeAfterScenarioSelectedList",
+          "ReplaceFormatData": "{1}, //{0}"
+        },
+        {
+          "ReplaceTargetName": "IncludeListGLE__exeAfterScenarioSelected",
+          "ReplaceFormatData": "#include \"{2}\""
+        }
+      ]
+    },
+    {
+      "Name": "GLE__onHideGalaxyInfoBanner",
+      "CodeGenSource": "GEN_GalaxyLevelEngine_Hooks.h",
+      "CodeGenDestination": "codebuild/ModuleData_GalaxyLevelEngine_Hooks.h",
+      "Variables": [
+        "Name",
+        "Function",
+        "Include"
+      ],
+      "CodeGenData": [
+        {
+          "ReplaceTargetName": "GLE__onHideGalaxyInfoBannerList",
+          "ReplaceFormatData": "{1}, //{0}"
+        },
+        {
+          "ReplaceTargetName": "IncludeListGLE__onHideGalaxyInfoBanner",
+          "ReplaceFormatData": "#include \"{2}\""
+        }
+      ]
+    },
+    {
+      "Name": "GLE__onShowGalaxyInfoBanner",
+      "CodeGenSource": "GEN_GalaxyLevelEngine_Hooks.h",
+      "CodeGenDestination": "codebuild/ModuleData_GalaxyLevelEngine_Hooks.h",
+      "Variables": [
+        "Name",
+        "Function",
+        "Include"
+      ],
+      "CodeGenData": [
+        {
+          "ReplaceTargetName": "GLE__onShowGalaxyInfoBannerList",
+          "ReplaceFormatData": "{1}, //{0}"
+        },
+        {
+          "ReplaceTargetName": "IncludeListGLE__onShowGalaxyInfoBanner",
+          "ReplaceFormatData": "#include \"{2}\""
+        }
+      ]
+    },
+    {
+      "Name": "GLE__isJMapEntryProgressComplete",
+      "CodeGenSource": "GEN_GalaxyLevelEngine_Hooks.h",
+      "CodeGenDestination": "codebuild/ModuleData_GalaxyLevelEngine_Hooks.h",
+      "Variables": [
+        "Name",
+        "Function",
+        "Include"
+      ],
+      "CodeGenData": [
+        {
+          "ReplaceTargetName": "GLE__isJMapEntryProgressCompleteList",
+          "ReplaceFormatData": "{1}, //{0}"
+        },
+        {
+          "ReplaceTargetName": "IncludeListGLE__isJMapEntryProgressComplete",
+          "ReplaceFormatData": "#include \"{2}\""
+        }
+      ]
+    },
+    {
+      "Name": "GLE__isGalaxyCompleteRequirementComplete",
+      "CodeGenSource": "GEN_GalaxyLevelEngine_Hooks.h",
+      "CodeGenDestination": "codebuild/ModuleData_GalaxyLevelEngine_Hooks.h",
+      "Variables": [
+        "Name",
+        "Function",
+        "Include"
+      ],
+      "CodeGenData": [
+        {
+          "ReplaceTargetName": "GLE__isGalaxyCompleteRequirementCompleteList",
+          "ReplaceFormatData": "{1}, //{0}"
+        },
+        {
+          "ReplaceTargetName": "IncludeListGLE__isGalaxyCompleteRequirementComplete",
+          "ReplaceFormatData": "#include \"{2}\""
+        }
+      ]
+    }
+  ]
+
+}

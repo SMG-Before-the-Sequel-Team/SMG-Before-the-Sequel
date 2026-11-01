@@ -1,0 +1,45 @@
+{
+  "Name": "Mecha Bowser Mapparts in SMG2",
+  "Author": "Super Hackio",
+  "Description": "Fresh from the Assembly Line",
+  "SupportedGames": [ "SB4" ],
+
+  "ModuleData": [
+    {
+      "NameObjFactory": [
+        {
+          "Name": "MechaKoopaPartsHead",
+          "Function": "createExtActor<MechaKoopaPartsHead>",
+          "Include": "Game/MapObj/MechaKoopaPartsHead.h"
+        },
+        {
+          "Name": "MechaKoopaPartsArmLeft",
+          "Function": "createExtActor<MechaKoopaPartsArm>",
+          "Include": "Game/MapObj/MechaKoopaPartsArm.h"
+        },
+        {
+          "Name": "MechaKoopaPartsArmRight",
+          "Function": "createExtActor<MechaKoopaPartsArm>",
+          "Include": "Game/MapObj/MechaKoopaPartsArm.h"
+        }
+      ],
+      "ProductMapObj": [
+        {
+          "Name": "RailMoveObjBreakAtEnd",
+          "Function": "createExtActor<RailMoveObjBreakAtEnd>",
+          "Include": "Game/MapObj/RailMoveObjBreakAtEnd.h"
+        },
+        {
+          "Name": "RailMoveObjSwitchShadow",
+          "Function": "createExtActor<RailMoveObjSwitchShadow>",
+          "Include": "Game/MapObj/RailMoveObjSwitchShadow.h"
+        },
+        {
+          "Name": "MechaKoopaPartsArm",
+          "Function": "createExtActor<MechaKoopaPartsArm>",
+          "Include": "Game/MapObj/MechaKoopaPartsArm.h"
+        }
+      ]
+    }
+  ]
+}

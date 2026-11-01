@@ -1,0 +1,18 @@
+{
+  "Name": "SMG2 SimpleTutorialObj",
+  "Author": "Super Hackio",
+  "Description": "Simplistic custom tutorial layouts",
+  "SupportedGames": [ "SB4" ],
+
+  "ModuleData": [
+    {
+      "ProductMapObj": [
+        {
+          "Name": "SimpleTutorialObj",
+          "Function": "createExtActor<SimpleTutorialObj>",
+          "Include": "SimpleTutorialObj.h"
+        }
+      ]
+    }
+  ]
+}
