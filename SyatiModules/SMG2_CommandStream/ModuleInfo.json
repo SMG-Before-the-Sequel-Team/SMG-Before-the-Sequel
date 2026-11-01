@@ -1,0 +1,49 @@
+{
+  "Name": "SMG2 Command Stream",
+  "Author": "Super Hackio",
+  "Description": "Ports the Command Stream star pointer mode to SMG2",
+  "SupportedGames": [ "SB4" ],
+  "APIId": "StarPointerCommandStream_API",
+  "CompilerFlags": [
+    "-DSTAR_POINTER_COMMAND_STREAM"
+  ],
+  "RequiredAPIs": [ "Syati_ClassExtensions_API", "Syati_ExtStarPointer_API" ],
+
+  "ModuleData": [
+    {
+      "StarPointerMode": [
+        {
+          "Name": "CommandStream",
+          "SetupFunc": "setupCommandStream_StarPointerOnOffController",
+          "Comment": "Ported from SMG1",
+          "Include": "CommandStream.h"
+        }
+      ],
+      "StationedFileEntry": [
+        {
+          "Type1": "1",
+          "Type2": "7",
+          "Path": "/LayoutData/CommandStream.arc"
+        }
+      ],
+      "ClassExtensionsMajorMinor": [
+        {
+          "ClassName": "StarPointerLayout",
+          "FuncOrVar": "StarPointerCommandStream* mCommandStream;",
+          "HookAddrMajor": "0x8049A4BC",
+          "HookAddrMinor": "0x8049A52C",
+          "Include": "Game/Screen/StarPointerLayout.h",
+          "Extern": "class StarPointerCommandStream;"
+        },
+        {
+          "ClassName": "StarPointerLayout",
+          "FuncOrVar": "const LiveActor* mActor;",
+          "HookAddrMajor": "0x8049A4BC",
+          "HookAddrMinor": "0x8049A52C",
+          "Include": "",
+          "Extern": "class LiveActor;"
+        }
+      ]
+    }
+  ]
+}

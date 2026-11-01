@@ -1,0 +1,66 @@
+{
+  "Name": "SMG2 Comet Screen Filter Colors",
+  "Author": "Super Hackio",
+  "Description": "Restores the Custom Comet Screen Filter colors that were used in SMG1.",
+  "SupportedGames": [ "SB4" ],
+
+  "ModuleExtensionDefinition": [
+    {
+      "Name": "CometScreenFilter",
+      "CodeGenSource": "GEN_CometScreenFilter.h",
+      "CodeGenDestination": "codebuild/ModuleData_ExtCometScreenFilter.h",
+      "Variables": [
+        "Comet",
+        "Frame"
+      ],
+      "CodeGenData": [
+        {
+          "ReplaceTargetName": "CometScreenFilterList",
+          "ReplaceFormatData": "    {{ \"{0}\", {1} }},"
+        }
+      ]
+    }
+  ],
+  "ModuleData": [
+    {
+      "CometScreenFilter": [
+        {
+          "Comet": "Red",
+          "Frame": "1"
+        },
+        {
+          "Comet": "Dark",
+          "Frame": "2"
+        },
+        {
+          "Comet": "Purple",
+          "Frame": "3"
+        },
+        {
+          "Comet": "Exterminate",
+          "Frame": "4"
+        },
+        {
+          "Comet": "Mimic",
+          "Frame": "5"
+        },
+        {
+          "Comet": "Ghost",
+          "Frame": "6"
+        },
+        {
+          "Comet": "Quick",
+          "Frame": "7"
+        },
+        {
+          "Comet": "Horror",
+          "Frame": "8"
+        },
+        {
+          "Comet": "Rainbow",
+          "Frame": "9"
+        }
+      ]
+    }
+  ]
+}
