@@ -1,12 +1,12 @@
 {
 	"FileSelect": "File Select",
-	"IntroGalaxy": "Mushroom Kingdom",
+	"IntroGalaxy": "Starry Dream / Mushroom Kingdom",
 	"ProlougeGalaxy": "Peach's Castle",
 	"FairyFountainGalaxy": "Game Over",
 	"StaffRollGalaxy": "Mod Credits",
 	"SilentRealmGalaxy": "Hylia's Silent Realm",
 	"TeresaGalaxy": "Boo's Grave Raceyard Galaxy",
-	"TamakoroLv1Galaxy": "Rolling Challenge Galaxy",
+	"TamakoroLv1Galaxy": "2-Luma - Rolling Challenge Galaxy",
 	
 	"HubworldGalaxy": "1 - World 1 - Gravity Garden",
 	"MemoryGalaxy": "1-1 - Forgotten Memory Galaxy",
@@ -20,11 +20,11 @@
 
     "ShatteredHubworldGalaxy": "2 - World 2 - Lofted Isle",
 	"BeachCollisionGalaxy": "2-1 - Starshine Bowl Galaxy",
-	"SkyDungeonGalaxy": "2-2 - Skyview Temple Galaxy",
-	"WhoaSpaceGalaxy": "2-3 - Deep Space Galaxy",
-	"KoopaLv1Galaxy": "2-B - Bowser's Lightning Factory",
+	"SkyDungeonGalaxy": "(TO BE FINISHED) Skyview Temple Galaxy",
+	"MultiGravityGalaxy": "2-3 - Galactic Gravity Galaxy",
+	"KoopaLv1Galaxy": "2-B - Bowser's Elemental Factory",
 	"LuigiLv2Galaxy": "2-Luigi - Second Luigi Intermission",
-	"MarioChaseExGalaxy": "2-Luma - Mario Chase Stadium Galaxy"
+	"MarioChaseExGalaxy": "(TO BE FINISHED) Mario Chase Stadium Galaxy"
 
 
 

@@ -1,7 +1,0 @@
-{
-  "Version": 1,
-  "Files": [
-    "include/ClipAreaColorController.h",
-    "source/ClipAreaColorController.cpp"
-  ]
-}

@@ -1,0 +1,29 @@
+[
+    {
+        "GroupName": "Pompon2Plant",
+        "AnimName": [
+            "Hit"
+        ],
+        "UniqueName": "Hit",
+        "EffectName": [
+            "CoinFlowerBud"
+        ],
+        "JointName": "ChupaChups",
+        "OffsetX": 52.0,
+        "OffsetY": 255.0,
+        "OffsetZ": -76.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "PrmColor": "#ffff3c",
+        "EnvColor": "#ffffff",
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T"
+        ]
+    }
+]

@@ -1,7 +1,0 @@
-{
-  "Version": 1,
-  "Files": [
-    "include/ChildSwitchArea.h",
-    "source/ChildSwitchArea.cpp"
-  ]
-}

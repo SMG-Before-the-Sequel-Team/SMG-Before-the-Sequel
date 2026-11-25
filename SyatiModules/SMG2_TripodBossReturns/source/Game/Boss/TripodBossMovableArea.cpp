@@ -2,6 +2,7 @@
 #include "Game/Util/MathUtil.h"
 #include "JSystem/JGeometry/TVec.h"
 
+#include "JSystem/JMath.h"
 #include "JSystem/JGeometry/TUtil.h"
 
 
@@ -127,7 +128,7 @@ void TripodBossMovableArea::calcNearLandingPosition(TVec3f *pPos, const TVec3f &
 
         TVec3f v15(v16);
         v6 = mBaseAxis.dot(v16);
-        ((const Vec*)&mBaseAxis, (const Vec*)&v16, (Vec*)&v15, -v6);
+        JMAVECScaleAdd((const Vec*)&mBaseAxis, (const Vec*)&v16, (Vec*)&v15, -v6);
         if (MR::isNearZero(v15, 0.001f)) {
             v15.zero();
             int idx = 1; // MR::getMinAbsElementIndex(mBaseAxis);
@@ -161,14 +162,14 @@ void TripodBossMovableArea::calcLandingFront(TVec3f *pFront, const TVec3f &a2) c
     v9 = -mBaseAxis;
     //JMathInlineVEC::PSVECNegate(&mBaseAxis, &v9);
     f32 v7 = v11.dot(v9);
-    ((const Vec*)&v11, (const Vec*)&v9, (Vec*)&v10, -v7);
+    JMAVECScaleAdd((const Vec*)&v11, (const Vec*)&v9, (Vec*)&v10, -v7);
     MR::normalizeOrZero(&v10);
     if (MR::isNearZero(v10, 0.001f)) {
         v10.zero();
         int idx = 1;// MR::getMinAbsElementIndex(mBaseAxis);
         (&v10.x)[idx] = 1.0f;
         f32 v8 = mBaseAxis.dot(v10);
-        ((const Vec*)&mBaseAxis, (const Vec*)&v10, (Vec*)&v10, -v8);
+        JMAVECScaleAdd((const Vec*)&mBaseAxis, (const Vec*)&v10, (Vec*)&v10, -v8);
         MR::normalizeOrZero(&v10);
     }
 

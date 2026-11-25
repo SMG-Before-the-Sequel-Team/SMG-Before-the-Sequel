@@ -1,7 +1,0 @@
-{
-  "Version": 3,
-  "Files": [
-    "include/CrashHelper.h",
-    "source/CrashHelper.cpp"
-  ]
-}

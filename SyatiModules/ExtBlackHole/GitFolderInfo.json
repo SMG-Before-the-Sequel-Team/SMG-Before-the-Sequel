@@ -1,7 +1,0 @@
-{
-  "Version": 1,
-  "Files": [
-    "include/ExtBlackHole.h",
-    "source/ExtBlackHole.cpp"
-  ]
-}

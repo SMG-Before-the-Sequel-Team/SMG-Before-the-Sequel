@@ -3,6 +3,9 @@
     "Author": "Bavario, VTXG",
     "Description": "Adds the Dive from Super Mario 64. Simply press A while mid-air to perform it.",
     "InstallDependencies": ["Syati_CommonFunctionHooks"],
+    "SupportedGames": [
+      "SB4"
+    ],
     "ModuleData": [
       {
         "OnGameSceneUpdate": [

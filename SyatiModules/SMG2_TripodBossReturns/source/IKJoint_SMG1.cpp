@@ -2,6 +2,7 @@
 
 #include "Game/Util/MathUtil.h"
 #include "Game/Util/MtxUtil.h"
+#include "JSystem/JMath.h"
 
 namespace IKJoint_SMG1 {
     void setRootBoneLength(IKJoint* ikjnt, f32 boneLength) {
@@ -45,7 +46,7 @@ namespace IKJoint_SMG1 {
         ikjnt->_60.getXDir(xDir);
         ikjnt->_60.getTrans(*pPos);
         TVec3f scale = (xDir * ikjnt->mMiddleBoneLength);
-        PSVECAdd((const Vec*)pPos, (const Vec*)&scale, (Vec*)pPos);
+        JMathInlineVEC::PSVECAdd((const Vec*)pPos, (const Vec*)&scale, (Vec*)pPos);
     }
 
     f32 getMinLimitDistance(IKJoint* ikjnt) {

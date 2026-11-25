@@ -76,15 +76,15 @@ namespace pt {
 	kmCall(0x8025488C, CustomFlagTextures);
 
 
-	//void customHipDropSwitchColors(LiveActor* actor, const JMapInfoIter& iter) {
-		//MR::needStageSwitchWriteA(actor, iter);
+	void customHipDropSwitchColors(LiveActor* actor, const JMapInfoIter& iter) {
+		MR::needStageSwitchWriteA(actor, iter);
 	
-		//f32 frame = 0;
-		//MR::getJMapInfoArg1NoInit(iter, &frame);
-		//MR::startBtpAndSetFrameAndStop(actor, "ButtonColor", frame);
-	//}
+		f32 frame = 0;
+		MR::getJMapInfoArg1NoInit(iter, &frame);
+		MR::startBtpAndSetFrameAndStop(actor, "ButtonColor", frame);
+	}
 	
-	//kmCall(0x802AF524, customHipDropSwitchColors);
+	kmCall(0x802AF524, customHipDropSwitchColors);
 	
 	/*
 	* Debugging feature: displaying the names of missing files on the "File isn't exist" error.
@@ -294,16 +294,16 @@ namespace pt {
 	void funcTest(JUTConsole* pConsole, const char* pStr) {
 		const char* region = 0;
 
-		#ifdef USA
-			region = "USA";
-		#elif PAL
-			region = "PAL";
-		#elif JPN
-			region = "JPN";
-		#elif TWN
-			region = "TWN";
-		#elif KOR
-			region = "KOR";
+		#ifdef SB4E
+			region = "SB4E";
+		#elif SB4P
+			region = "SB4P";
+		#elif SB4J
+			region = "SB4J";
+		#elif SB4W
+			region = "SB4W";
+		#elif SB4K
+			region = "SB4K";
 		#endif
 
 		char binPath[35];
